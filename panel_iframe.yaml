@@ -1,5 +1,5 @@
 panel_iframe:
-  pi:
+  panel_name:
     title: 'Pi'
     url: 'http://192.168.0.161:4200'
     icon: 'mdi:code-tags'
