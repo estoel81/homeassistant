@@ -84,3 +84,5 @@ panel_iframe:
   raspberry:
     title: 'raspberry'
     url: 'http://192.168.0.161:4200'
+    icon: 'mdi:console'
+
