@@ -24,7 +24,7 @@ config:
 
 http:
   # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
+  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: example.duckdns.org:8123
 
@@ -69,3 +69,14 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+panel_iframe: !include components/panel_iframe.yaml
+
+tado:
+  username: estoel81@hotmail.com
+  password: !secret tado_password
+
+device_tracker:
+- platform: tado
+  username: estoel81@hotmail.com
+  password: !secret tado_password
+  home_id: 195533
