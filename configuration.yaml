@@ -69,7 +69,7 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-panel_iframe: !include components/panel_iframe.yaml
+panel_iframe: !include panel_iframe.yaml
 
 tado:
   username: estoel81@hotmail.com
